@@ -30,7 +30,7 @@ namespace Electronic_Store
         private void InitializeNavControl()
         {
             List<UserControl> list = new List<UserControl>()
-            {  new AddProducts(),new SoldProducts(),new LastProducts()};
+            {  new components.AddProducts(),new components.SoldProducts(),new components.LastProducts()};
 
             navbar = new Navbar(list, panel1);
             navbar.Display(0);//as default
