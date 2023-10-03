@@ -116,6 +116,7 @@ namespace Electronic_Store.components
         //
         private string[] GetModelById(int id)
         {
+            GetCategory();
             return model.Where(fun => fun.cate_id == id).Select(value => value.modelno).ToArray();
         }
         private void GetComboCateCell()
@@ -134,11 +135,11 @@ namespace Electronic_Store.components
             comboCateCell.ValueMember = "CateId";
             comboCateCell.SelectedIndexChanged += new EventHandler(this.comboCategory_SelectedIndexChanged);
             conn.Close();
-            
+           
         }
         private void AddProducts_Load(object sender, EventArgs e)
         {
-           
+            
             comboBrand.Items.Clear();
             comboCategory.Items.Clear();
             dataTimePicker1.Text = "";
@@ -268,7 +269,7 @@ namespace Electronic_Store.components
            
             con.Close();
             GetCateCell();
-            GetComboCateCell();
+            GetComboCateCell();       
         }
 
         private void dataView_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -299,9 +300,7 @@ namespace Electronic_Store.components
         private void GetCateCell()
         {
             comboModelCell.Items.Clear();
-            GetCategory();
-
-
+           
             int id = category[comboCateCell.SelectedIndex].id;
             foreach (string name in GetModelById(id))
             {
@@ -321,8 +320,7 @@ namespace Electronic_Store.components
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            comboCateCell.Text = "";
-            comboModelCell.Text = "";
+           
             SqlConnection con = new SqlConnection(_connectionString);
             con.Open();
             if(comboCateCell.SelectedIndex>=0 || comboModelCell.SelectedIndex > 0)
@@ -344,8 +342,9 @@ namespace Electronic_Store.components
             }
            
             con.Close();
-          
-           
+            comboCateCell.Text = "";
+            comboModelCell.Text = "";
+
         }
 
         private void btnAll_Click(object sender, EventArgs e)
@@ -356,13 +355,17 @@ namespace Electronic_Store.components
             comboCategory.Text = "";
             comboBrand.Text = "";
             //comboModelCell.Items.Clear();
+          
+
 
         }
 
         private void comboModelCell_SelectedIndexChanged(object sender, EventArgs e)
         {
             // GetData();
-            GetComboCateCell();
+            //GetComboCateCell();
+            //GetCateCell();
+           
 
         }
 

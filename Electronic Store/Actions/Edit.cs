@@ -102,7 +102,7 @@ namespace Electronic_Store.Actions
             int iquan = Convert.ToInt16(itemquan.ExecuteScalar().ToString());
             if (txtQuan.Text == "0" || quantity>iquan)
             {
-                MessageBox.Show("Empty Quantity");
+                MessageBox.Show("Not Enough Quantity");
             }
             else
             {

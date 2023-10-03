@@ -210,6 +210,8 @@
     <Content Include="assets\bendy-two-graphs.png" />
     <Content Include="assets\Gartoon-Team-Gartoon-Places-Folder-documents.512.png" />
     <Content Include="assets\icons8-log-out-48.png" />
+    <Content Include="assets\icons8-open-box-30.png" />
+    <Content Include="assets\icons8-plus-30.png" />
     <Content Include="assets\icons8-refresh-30.png" />
     <Content Include="assets\icons8-search-24.png" />
     <Content Include="assets\icons8-sign-64.png" />
