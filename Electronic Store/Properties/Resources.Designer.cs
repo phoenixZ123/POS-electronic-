@@ -63,6 +63,36 @@ namespace Electronic_Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3d_casual_life_boy_jumping_with_empty_sign {
+            get {
+                object obj = ResourceManager.GetObject("3d-casual-life-boy-jumping-with-empty-sign", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap analysis_2041643 {
+            get {
+                object obj = ResourceManager.GetObject("analysis_2041643", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap analysis_20416431 {
+            get {
+                object obj = ResourceManager.GetObject("analysis_20416431", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap avatar_9742442 {
             get {
                 object obj = ResourceManager.GetObject("avatar_9742442", resourceCulture);
@@ -73,9 +103,49 @@ namespace Electronic_Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bendy_budget_planning_doing_taxes_and_accounting {
+            get {
+                object obj = ResourceManager.GetObject("bendy-budget-planning-doing-taxes-and-accounting", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bendy_two_graphs {
+            get {
+                object obj = ResourceManager.GetObject("bendy-two-graphs", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap features_4061954 {
             get {
                 object obj = ResourceManager.GetObject("features_4061954", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gartoon_Team_Gartoon_Places_Folder_documents_512 {
+            get {
+                object obj = ResourceManager.GetObject("Gartoon-Team-Gartoon-Places-Folder-documents.512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gartoon_Team_Gartoon_Places_Folder_documents1 {
+            get {
+                object obj = ResourceManager.GetObject("Gartoon-Team-Gartoon-Places-Folder-documents1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +166,96 @@ namespace Electronic_Store.Properties {
         internal static System.Drawing.Bitmap icons8_add_482 {
             get {
                 object obj = ResourceManager.GetObject("icons8-add-482", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_delete_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-delete-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_graph_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-graph-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_log_out_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-log-out-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_refresh_30 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-refresh-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_search_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-search-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_sign_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-sign-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_sign_641 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-sign-641", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_sign_642 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-sign-642", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_update_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-update-24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +286,36 @@ namespace Electronic_Store.Properties {
         internal static System.Drawing.Bitmap notepad_4067596 {
             get {
                 object obj = ResourceManager.GetObject("notepad_4067596", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap simplistic_web_analytics_on_computer_screen {
+            get {
+                object obj = ResourceManager.GetObject("simplistic-web-analytics-on-computer-screen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tap_738502 {
+            get {
+                object obj = ResourceManager.GetObject("tap_738502", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tutti_buying_real_estate_1 {
+            get {
+                object obj = ResourceManager.GetObject("tutti-buying-real-estate-1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

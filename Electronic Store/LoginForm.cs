@@ -71,7 +71,7 @@ namespace Electronic_Store
         }
 
         private void btnforgot_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
+        {          
             Change_Password f = new Change_Password();
             f.Show();
         }

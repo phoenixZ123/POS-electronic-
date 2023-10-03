@@ -33,6 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Excel, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Excel.1.0.0\lib\dotnet\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +53,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actions\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actions\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actions\Empty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actions\Empty.Designer.cs">
+      <DependentUpon>Empty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actions\View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actions\View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
+    </Compile>
     <Compile Include="ButtonAction\Navbar.cs" />
     <Compile Include="ButtonAction\NavbarButtons.cs" />
     <Compile Include="components\AddProducts.cs">
@@ -97,6 +122,24 @@
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Actions\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actions\Empty.resx">
+      <DependentUpon>Empty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actions\View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="components\AddProducts.resx">
+      <DependentUpon>AddProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="components\LastProducts.resx">
+      <DependentUpon>LastProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="components\SoldProducts.resx">
+      <DependentUpon>SoldProducts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +157,10 @@
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -127,7 +174,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="assets\analysis_2041643.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="assets\lock_8579769.png" />
   </ItemGroup>
@@ -145,6 +194,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\icons8-add-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\icons8-graph-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\icons8-delete-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\icons8-update-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\3d-casual-life-boy-jumping-with-empty-sign.png" />
+    <Content Include="assets\bendy-budget-planning-doing-taxes-and-accounting.gif" />
+    <Content Include="assets\bendy-two-graphs.png" />
+    <Content Include="assets\Gartoon-Team-Gartoon-Places-Folder-documents.512.png" />
+    <Content Include="assets\icons8-log-out-48.png" />
+    <Content Include="assets\icons8-refresh-30.png" />
+    <Content Include="assets\icons8-search-24.png" />
+    <Content Include="assets\icons8-sign-64.png" />
+    <Content Include="assets\simplistic-web-analytics-on-computer-screen.gif" />
+    <Content Include="assets\tap_738502.png" />
+    <Content Include="assets\tutti-buying-real-estate-1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -57,10 +57,10 @@
             this.panel2.Controls.Add(this.txtemail);
             this.panel2.Controls.Add(this.PwdLAbel);
             this.panel2.Controls.Add(this.userNameLabel);
-            this.panel2.Location = new System.Drawing.Point(566, 155);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Location = new System.Drawing.Point(755, 191);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(440, 345);
+            this.panel2.Size = new System.Drawing.Size(587, 425);
             this.panel2.TabIndex = 7;
             // 
             // btncancel
@@ -68,10 +68,10 @@
             this.btncancel.BackColor = System.Drawing.Color.PaleVioletRed;
             this.btncancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncancel.Location = new System.Drawing.Point(34, 255);
-            this.btncancel.Margin = new System.Windows.Forms.Padding(2);
+            this.btncancel.Location = new System.Drawing.Point(45, 314);
+            this.btncancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(159, 48);
+            this.btncancel.Size = new System.Drawing.Size(212, 59);
             this.btncancel.TabIndex = 29;
             this.btncancel.Text = "Cancel";
             this.btncancel.UseVisualStyleBackColor = false;
@@ -83,20 +83,21 @@
             this.passlabel.BackColor = System.Drawing.Color.Transparent;
             this.passlabel.Font = new System.Drawing.Font("Noto Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passlabel.ForeColor = System.Drawing.Color.Blue;
-            this.passlabel.Location = new System.Drawing.Point(128, 175);
+            this.passlabel.Location = new System.Drawing.Point(169, 184);
+            this.passlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.passlabel.Name = "passlabel";
-            this.passlabel.Size = new System.Drawing.Size(309, 15);
+            this.passlabel.Size = new System.Drawing.Size(348, 18);
             this.passlabel.TabIndex = 28;
             this.passlabel.Text = "You should enter  8 chars(include digits and characters) ";
             // 
             // txtuser
             // 
             this.txtuser.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtuser.Location = new System.Drawing.Point(152, 192);
-            this.txtuser.Margin = new System.Windows.Forms.Padding(2);
+            this.txtuser.Location = new System.Drawing.Point(203, 236);
+            this.txtuser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtuser.Name = "txtuser";
             this.txtuser.PasswordChar = '*';
-            this.txtuser.Size = new System.Drawing.Size(239, 30);
+            this.txtuser.Size = new System.Drawing.Size(317, 36);
             this.txtuser.TabIndex = 8;
             // 
             // label1
@@ -104,10 +105,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(29, 192);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(39, 236);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 30);
+            this.label1.Size = new System.Drawing.Size(136, 37);
             this.label1.TabIndex = 7;
             this.label1.Text = "Username";
             // 
@@ -115,10 +115,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(158, 11);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(211, 14);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(140, 37);
+            this.label4.Size = new System.Drawing.Size(174, 46);
             this.label4.TabIndex = 6;
             this.label4.Text = "REGISTER";
             // 
@@ -127,10 +126,10 @@
             this.btnRegister.BackColor = System.Drawing.Color.SeaGreen;
             this.btnRegister.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegister.Location = new System.Drawing.Point(232, 255);
-            this.btnRegister.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRegister.Location = new System.Drawing.Point(309, 314);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(159, 48);
+            this.btnRegister.Size = new System.Drawing.Size(212, 59);
             this.btnRegister.TabIndex = 5;
             this.btnRegister.Text = "Submit";
             this.btnRegister.UseVisualStyleBackColor = false;
@@ -139,20 +138,20 @@
             // txtpass
             // 
             this.txtpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpass.Location = new System.Drawing.Point(150, 119);
-            this.txtpass.Margin = new System.Windows.Forms.Padding(2);
+            this.txtpass.Location = new System.Drawing.Point(200, 146);
+            this.txtpass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtpass.Name = "txtpass";
             this.txtpass.PasswordChar = '*';
-            this.txtpass.Size = new System.Drawing.Size(239, 30);
+            this.txtpass.Size = new System.Drawing.Size(317, 36);
             this.txtpass.TabIndex = 3;
             // 
             // txtemail
             // 
             this.txtemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtemail.Location = new System.Drawing.Point(150, 50);
-            this.txtemail.Margin = new System.Windows.Forms.Padding(2);
+            this.txtemail.Location = new System.Drawing.Point(200, 62);
+            this.txtemail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(239, 30);
+            this.txtemail.Size = new System.Drawing.Size(317, 36);
             this.txtemail.TabIndex = 2;
             // 
             // PwdLAbel
@@ -160,10 +159,9 @@
             this.PwdLAbel.AutoSize = true;
             this.PwdLAbel.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PwdLAbel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PwdLAbel.Location = new System.Drawing.Point(27, 120);
-            this.PwdLAbel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.PwdLAbel.Location = new System.Drawing.Point(36, 148);
             this.PwdLAbel.Name = "PwdLAbel";
-            this.PwdLAbel.Size = new System.Drawing.Size(99, 30);
+            this.PwdLAbel.Size = new System.Drawing.Size(128, 37);
             this.PwdLAbel.TabIndex = 1;
             this.PwdLAbel.Text = "Password";
             // 
@@ -172,35 +170,37 @@
             this.userNameLabel.AutoSize = true;
             this.userNameLabel.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userNameLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.userNameLabel.Location = new System.Drawing.Point(27, 50);
-            this.userNameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.userNameLabel.Location = new System.Drawing.Point(36, 62);
             this.userNameLabel.Name = "userNameLabel";
-            this.userNameLabel.Size = new System.Drawing.Size(63, 30);
+            this.userNameLabel.Size = new System.Drawing.Size(82, 37);
             this.userNameLabel.TabIndex = 0;
             this.userNameLabel.Text = "Email";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Electronic_Store.Properties.Resources.notepad_4067596;
-            this.pictureBox1.Location = new System.Drawing.Point(731, 21);
+            this.pictureBox1.Location = new System.Drawing.Point(975, 26);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(115, 129);
+            this.pictureBox1.Size = new System.Drawing.Size(153, 159);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
             // Register
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1536, 845);
+            this.ClientSize = new System.Drawing.Size(1924, 1040);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Register";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
