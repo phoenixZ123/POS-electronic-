@@ -269,7 +269,9 @@ namespace Electronic_Store.components
            
             con.Close();
             GetCateCell();
-            GetComboCateCell();       
+            GetComboCateCell();
+            //Dashboard d = new Dashboard();
+            //d.Show();
         }
 
         private void dataView_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -308,14 +310,15 @@ namespace Electronic_Store.components
 
             }
         }
+       
         private void comboCateCell_SelectedIndexChanged(object sender, EventArgs e)
         {
-            GetCateCell();
         }
 
         private void comboCategory_SelectedIndexChanged(object sender, EventArgs e)
         {
-           // getEnter();
+            // getEnter();
+            GetCateCell();
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
@@ -354,9 +357,10 @@ namespace Electronic_Store.components
 
             comboCategory.Text = "";
             comboBrand.Text = "";
-            //comboModelCell.Items.Clear();
-          
+            comboModelCell.Items.Clear();
 
+            Dashboard d = new Dashboard();
+            d.Show();
 
         }
 
